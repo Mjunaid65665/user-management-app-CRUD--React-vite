@@ -38,8 +38,8 @@ const Create = () => {
       setErrors(err);
     } else {
       
+      axios.post('https://my-json-server.typicode.com/Mjunaid65665/user-management-app-CRUD--React-vite/users', values)
         // .post("http://localhost:3000/users", values)
-        axios.post('https://my-json-server.typicode.com/ali123/user-management-app/users', values)
         .then((res) => {
           console.log(res);
           navigate("/");

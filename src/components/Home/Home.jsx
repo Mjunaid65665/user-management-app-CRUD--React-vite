@@ -7,8 +7,8 @@ const Home = () => {
 
   useEffect(() => {
     
-      // .get("http://localhost:3000/users")
-      axios.get('https://my-json-server.typicode.com/ali123/user-management-app/users')
+    axios.get('https://my-json-server.typicode.com/Mjunaid65665/user-management-app-CRUD--React-vite/users')
+      // axios.get("http://localhost:3000/users")
       .then((res) => setUsers(res.data))
       .catch((err) => console.log(err));
   }, []);

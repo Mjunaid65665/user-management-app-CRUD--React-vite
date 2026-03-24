@@ -70,6 +70,5 @@
       "username": "ALIII",
       "phone": "03264256624"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ] 
 }
