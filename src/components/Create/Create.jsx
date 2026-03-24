@@ -37,8 +37,9 @@ const Create = () => {
     if (Object.keys(err).length > 0) {
       setErrors(err);
     } else {
-      axios
-        .post("http://localhost:3000/users", values)
+      
+        // .post("http://localhost:3000/users", values)
+        axios.post('https://my-json-server.typicode.com/ali123/user-management-app/users', values)
         .then((res) => {
           console.log(res);
           navigate("/");

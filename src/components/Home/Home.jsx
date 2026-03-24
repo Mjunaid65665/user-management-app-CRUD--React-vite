@@ -6,8 +6,9 @@ const Home = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3000/users")
+    
+      // .get("http://localhost:3000/users")
+      axios.get('https://my-json-server.typicode.com/ali123/user-management-app/users')
       .then((res) => setUsers(res.data))
       .catch((err) => console.log(err));
   }, []);

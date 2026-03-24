@@ -7,8 +7,9 @@ const Read = () => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    axios
-      .get(`http://localhost:3000/users/${id}`)
+    
+      // .get(`http://localhost:3000/users/${id}`)
+      axios.get(`https://my-json-server.typicode.com/ali123/user-management-app/users/${id}`)
       .then((res) => setUser(res.data))
       .catch((err) => console.log(err));
   }, [id]);
