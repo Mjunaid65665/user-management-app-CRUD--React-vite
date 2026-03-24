@@ -18,8 +18,8 @@ const Update = () => {
   // Fetch existing user data
   useEffect(() => {
     
-    axios.get(`https://my-json-server.typicode.com/Mjunaid65665/user-management-app-CRUD--React-vite/users/${id}`)
-      // .get(`http://localhost:3000/users/${id}`)
+    axios
+      .get(`http://localhost:3000/users/${id}`)
       .then((res) => setValues(res.data))
       .catch((err) => console.log(err));
   }, [id]);
@@ -48,8 +48,8 @@ const Update = () => {
       setErrors(err);
     } else {
       axios
-      .put(`https://my-json-server.typicode.com/Mjunaid65665/user-management-app-CRUD--React-vite/users/${id}`, values)
-        // .put(`http://localhost:3000/users/${id}`, values)
+      // .put(`https://my-json-server.typicode.com/Mjunaid65665/user-management-app-CRUD--React-vite/users/${id}`, values)
+        .put(`http://localhost:3000/users/${id}`, values)
         .then((res) => {
           console.log(res);
           navigate("/");

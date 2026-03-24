@@ -5,70 +5,64 @@
       "name": "junaid Ahmad",
       "username": "jhony",
       "email": "johny@gmail.com",
-      "phone": "0 3414920104"
+      "phone": "03414920104"
     },
     {
       "id": "3",
       "name": "junaid Ahmad",
       "username": "jhony",
       "email": "johny@gmail.com",
-      "phone": "0 3414920104"
+      "phone": "03414920104"
     },
     {
       "id": "4",
       "name": "junaid Ahmad",
       "username": "jhony",
       "email": "johny@gmail.com",
-      "phone": "0 3414920104"
+      "phone": "03414920104"
     },
     {
       "id": "5",
       "name": "junaid Ahmad",
       "username": "jhony",
       "email": "johny@gmail.com",
-      "phone": "0 3414920104"
-    },
-    {
-      "id": "6",
-      "name": "junaid Ahmad",
-      "username": "jhony",
-      "email": "johny@gmail.com",
-      "phone": "0 3414920104"
+      "phone": "03414920104"
     },
     {
       "id": "7",
       "name": "junaid Ahmad",
       "username": "jhony",
       "email": "johny@gmail.com",
-      "phone": "0 3414920104"
+      "phone": "03414920104"
     },
     {
       "id": "8",
       "name": "junaid Ahmad",
       "username": "jhony",
       "email": "johny@gmail.com",
-      "phone": "0 3414920104"
+      "phone": "03414920104"
     },
     {
       "id": "9",
       "name": "junaid Ahmad",
       "username": "jhony",
       "email": "johny@gmail.com",
-      "phone": "0 3414920104"
+      "phone": "03414920104"
     },
     {
       "id": "10",
       "name": "junaid Ahmad",
-      "username": "jhony",
+      "username": "jhn",
       "email": "johny@gmail.com",
-      "phone": "0 3414920104"
+      "phone": "03414920104"
     },
     {
-      "id": "766d",
-      "name": "ali",
-      "email": "ali@gmail.com",
-      "username": "ALIII",
-      "phone": "03264256624"
+      "id": "4254",
+      "name": "mohsin",
+      "email": "mohsin@gmail.com",
+      "username": "kaliya",
+      "phone": "03212446613"
     }
-  ] 
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
